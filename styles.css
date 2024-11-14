@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   /** background-color: aqua; **/
+    font-family: 'Gilroy';
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#card{
+    height:400px;
+    width:350px;
+    background-color: white;
+  /**  margin: 5rem; **/
+    border-radius: 15px;;
+}
