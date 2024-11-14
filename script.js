@@ -1,7 +1,7 @@
 
-const btn = document.querySelector('#follow');
-btn. addEventListener('click',function(){
+const btn = document.querySelector('button');
+btn.addEventListener('onclick',function(){
 
-   button.innerHTML = 'Following';
-    button.style.backgroundColor="  #45a049;"
+   btn.innerText = 'Following';
+    btn.style.backgroundColor ="  #45a049;"
     })
