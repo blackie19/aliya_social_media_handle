@@ -9,7 +9,7 @@
 body{
     height: 100%;
     width: 100%;
-    background-color: cornflowerblue;
+    background-color: rgb(226, 204, 156);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,5 +21,41 @@ body{
     width:350px;
     background-color: white;
   /**  margin: 5rem; **/
-    border-radius: 15px;;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
 }
+#card img{
+     /** //margin: 25px;**/
+    border-radius: 10px;
+  
+    object-fit: cover;
+}
+#card h1{
+    font-size: 2.5rem;
+    margin: 5px 0;
+}
+#card h5{
+    font-size: 25px;
+     color: red;
+     margin: 20px;
+}
+#card button{
+ font-size: 15px;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background-color:cadetblue;
+ padding: 10px 20px;
+font-weight: bold;
+ cursor: pointer;
+ border-radius: 10px;
+ box-shadow: 20px rgb(43, 33, 33);
+
+}
+button:active{
+    background-color: brown;
+   }
+
+   button:hover {
+    background-color: #45a049;
+}
+   
