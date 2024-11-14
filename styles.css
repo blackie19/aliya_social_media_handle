@@ -70,4 +70,6 @@ button:active{
         margin-left: 10%;
         margin-right: 10%;
     }
+    #card img{
+        margin:20px;
 }
