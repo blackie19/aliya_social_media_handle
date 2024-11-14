@@ -66,10 +66,6 @@ button:active{
 }
 @media(max-width:499px){
     #card{
-        max-width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
+      margin:2px;
     }
-    #card img{
-        margin:20px;
 }
